@@ -1,0 +1,14 @@
+name: StackMod
+main: net.stackmod.StackModPlugin
+version: 1.0.0
+api-version: '1.21'
+author: joel
+description: Server-only sitting & stacking with /sit config menu
+commands:
+  sit:
+    description: Open StackMod settings or perform sit actions
+    usage: /sit [menu|enable|disable|toggle <key>|set <key> <value>|info]
+permissions:
+  stackmod.admin:
+    description: Allows changing StackMod settings
+    default: op
